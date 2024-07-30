@@ -1,0 +1,21 @@
+        -:    0:Source:code.cpp
+        -:    0:Graph:code.gcno
+        -:    0:Data:code.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>  
+        -:    2:
+        2:    3:void hi() {
+        2:    4:    std::cout << "Hello World" << std::endl;
+        2:    5:}
+        -:    6:
+    #####:    7:bool is() {return false;}
+        -:    8:
+        1:    9: int main() {
+        1:   10:    hi();
+        -:   11:    int x;
+        1:   12:    x=0;
+       26:   13:    for(int i=25; i>x; i--){
+       25:   14:        std::cout << i << std::endl;
+        -:   15:    }
+        1:   16:    hi();
+        1:   17: }
